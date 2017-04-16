@@ -1,3 +1,5 @@
+'use strict'
+
 const express = require('express')
 const shows = require('./routes/shows')
 const bodyParser = require('body-parser')
