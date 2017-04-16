@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "nodemon server.js",
+    "test": "jasmine-node spec",
     "start": "node server.js"
   },
   "author": "Alireza Noori",
@@ -23,6 +24,7 @@
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "frisby": "^0.8.5",
     "nodemon": "^1.11.0"
   }
 }
